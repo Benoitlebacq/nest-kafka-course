@@ -36,6 +36,42 @@
       "compilerOptions": {
         "tsConfigPath": "libs/common/tsconfig.lib.json"
       }
+    },
+    "database": {
+      "type": "library",
+      "root": "libs/database",
+      "entryFile": "index",
+      "sourceRoot": "libs/database/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/database/tsconfig.lib.json"
+      }
+    },
+    "events-service": {
+      "type": "application",
+      "root": "apps/events-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/events-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/events-service/tsconfig.app.json"
+      }
+    },
+    "kafka": {
+      "type": "library",
+      "root": "libs/kafka",
+      "entryFile": "index",
+      "sourceRoot": "libs/kafka/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/kafka/tsconfig.lib.json"
+      }
+    },
+    "tickets-service": {
+      "type": "application",
+      "root": "apps/tickets-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/tickets-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/tickets-service/tsconfig.app.json"
+      }
     }
   }
 }

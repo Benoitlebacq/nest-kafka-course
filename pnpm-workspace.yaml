@@ -1,0 +1,4 @@
+allowBuilds:
+  '@swc/core': false
+  bcrypt: true
+  esbuild: true
